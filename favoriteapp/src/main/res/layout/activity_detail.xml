@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".DetailActivity">
+
+        <ImageButton
+            android:id="@+id/btn_favorite"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_star"
+            android:background="?android:selectableItemBackground"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:id="@+id/poster_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_below="@id/poster_image"
+            tools:text="Judul" />
+        <TableLayout
+            android:id="@+id/table_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/tv_title"
+            android:stretchColumns="2">
+            <TableRow>
+                <TextView
+                    android:text="@string/release_date"
+                    android:padding="3dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text=":"
+                    android:padding="3dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_release_date"
+                    android:padding="3dp"
+                    android:layout_marginLeft="5dp"
+                    tools:text="24-10-2008"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="@string/language"
+                    android:padding="3dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text=":"
+                    android:padding="3dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_language"
+                    android:padding="3dp"
+                    android:layout_marginLeft="5dp"
+                    tools:text="English"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="@string/rating"
+                    android:padding="3dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text=":"
+                    android:padding="3dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_rating"
+                    android:padding="3dp"
+                    android:layout_marginLeft="5dp"
+                    tools:text="7.8"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="@string/vote_count"
+                    android:padding="3dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text=":"
+                    android:padding="3dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_vote_count"
+                    android:padding="3dp"
+                    android:layout_marginLeft="5dp"
+                    tools:text="13008"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="@string/plot"
+                    android:padding="3dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text=":"
+                    android:padding="3dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:id="@+id/tv_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/table_layout"
+            android:padding="5dp"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="title_activity_upcoming">Segera Tayang</string>
+    <string name="navigation_drawer_open">Buka navigation drawer</string>
+    <string name="navigation_drawer_close">Tutup navigation drawer</string>
+    <string name="nav_header_title">Ekky Rino</string>
+    <string name="nav_header_subtitle">ekky.rhino@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ubah Bahasa</string>
+    <string name="title_activity_search">Cari Film</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="language">Bahasa</string>
+    <string name="rating">Rating</string>
+    <string name="vote_count">Total Vote</string>
+    <string name="plot">Alur Cerita</string>
+    <string name="enter_keyword">Masukkan keyword</string>
+    <string name="search">Cari</string>
+    <string name="detail">Detail</string>
+    <string name="share">Bagikan </string>
+    <string name="search_movie">Cari Film</string>
+    <string name="now_playing">Sedang Tayang</string>
+    <string name="upcoming">Segera Tayang</string>
+    <string name="settings">Pengaturan</string>
+    <string name="empty_field_error">Field ini tidak boleh kosong</string>
+    <string name="title_detail_activity">Detail Film</string>
+    <string name="search_message">Tolong masukkan kata pencarian</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorite_widget">Film Favorite</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Tambahkan Widget</string>
+    <string name="empty_text">Teks Kosong</string>
+    <string name="daily_reminder_message">Selamat pagi... Cek update terbaru film hari ini yuk.</string>
+    <string name="release_today_text">rilis hari ini.</string>
+</resources>
